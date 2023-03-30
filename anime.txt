@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+h1{
+background-color:F9cdc4;
+color:white;
+width:35%;
+height:7%;
+text-align:center;
+}
+body
+{
+color:white;
+}
+input
+{
+border-color:red;
+background-color:black;
+}
+</style>
+</head>
+
+<body bgcolor="black">
+<h1>ANIMI-FORMS</h1>
+<form>
+<label> ANIMI-NAME</label><br>
+<input type="text"><br>
+<label> ANIMI-(ORIGIN-COUNTRY)</label><br>
+<input type="text"><br>
+<label> No.of.Episodes</label><br>
+<input type="text"><br>
+<label> YOUR RATING</label><br>
+<input type="text"><br>
+<label> AWARDS</label><br>
+<input type="text"><br>
+<label> DESCRIPTION ABOUT THE ANIMI</label><br>
+<input type="text"><br><br><br>
+<button type="button"> SUBMIT</button><br>
+</body>
+</html>

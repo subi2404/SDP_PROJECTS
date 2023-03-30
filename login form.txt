@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:lightgreen;">
+<h1 style="text-align:center">Login</h1>
+<br>
+	<div class="form">
+		<label>Usename:</label>
+		<input type="text" name="name">
+
+		<label>Password:</label>
+		<input type="text" name="email">
+        <button type="login">login</button>
+
+	</div>
+    
+</body>
+</html>
+
+<style type="text/css">
+	.form {
+		margin: 0 auto;
+		width: 240px;
+	}
+
+	.form label{
+		display: inline-block;
+		text-align: right;
+		float: left;
+	}
+
+	.form input{
+		display: inline-block;
+		text-align: center;
+		float: right;
+	}
+    .form button{width: 50px;
+  text-align: center;
+  margin:70px;
+	}
+        
+</style>

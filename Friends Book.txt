@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Book</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Friends Book</title>
+    </head>
+    <body<body background="https://images.squarespace-cdn.com/content/v1/5beb0a44f2e6b1113f9519d9/405e9c88-73d8-46b7-b721-bfc8ac8197e0/Loyal+friendship.jpg" style="color:rgb(81, 0, 128)"(226, 90, 90)">
+        <div align="center">
+            <img src="https://images.squarespace-cdn.com/content/v1/5beb0a44f2e6b1113f9519d9/405e9c88-73d8-46b7-b721-bfc8ac8197e0/Loyal+friendship.jpg" id="backgroundImage">
+        <h1 id="TitleName">FRIENDS BOOK</h1>
+        <form>
+            <label id="yourName">Your name : </label><input type="text" id="textBox"><br>
+            <label id="field1">1. A Message for me! </label> <br>
+            <input type="text" id="textBox1"> <br>
+            <label>2. A nick for me? </label> <br>
+            <input type="text" id="textBox2"> <br>
+            <label>3. Have you ever lied to me? </label> <br>
+            <input type="radio" value="yes" id="yesMayBe"> Yes
+            <input type="radio" value="maybe" id="yesMayBe"> Maybe <br>
+            <label>4. How do you feel when you talk to me? </label> <br>
+            <input type="radio" value="happy"> Happy
+            <input type="radio" value="irritated"> Irritated <br>
+            <label>5. Do you like to go on a road trip with me? </label><br>
+            <input type="radio" value="yes"> Yes
+            <input type="radio" value="no"> No <br>
+            <label>6. Best color that suits me? </label> <br>
+            <input type="checkbox" value="red"  id="bestColour"> Red
+            <input type="checkbox" value="black"  id="bestColour"> Black
+            <input type="checkbox" value="white"  id="bestColour"> White
+            <input type="checkbox" value="blue"  id="bestColour"> Blue
+            <input type="checkbox" value="green"  id="bestColour"> Green <br>
+            <label>7. The best moment in our friendship? </label> <br>
+            <input type="text"> <br>
+        </form>
+    </div>   
+</body>
+</html>

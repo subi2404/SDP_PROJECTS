@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exercise 02</title>
+ </head>
+<body bgcolor="orange">
+ <h1 style="color:green">Ricardo's Page</h2>
+ <h2 style="color:green">My Dog</h2>
+ <img src="https://www.dogbreedinfo.com/images32/GermanShepherdAdultDogLayInGrassOutside.jpg" align="left" width="30%" height="30%">
+ <p style="color:green"><b>My dog Sasha is my best friend.She like to chase</b></p>
+ <p style="color:green"><b>the soccer ball when I practise.It is so funny to</b></p>
+ <p style="color:green"><b>her running down the field trying to catch the</b></p> 
+ <p style="color:green"><b>ball with her mouth.It just won't fit!!</b></p>
+</body>
+</html>

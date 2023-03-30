@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Whip up Gift Boxex</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id="grad1">
+    <h1 id="heading">WHIP-UP GIFT BOXES</h1>
+    <input type="text" id="textBox" placeholder="Enter the no of gifts to generate">
+    <button type="submit" id="generateButton2" value="Submit"><b>Generate Boxes</b></button>
+    <img id="generateButton">
+    <div class="grid-container" id="grid">
+        <script>
+            function generateGridItems(n) {
+              const grid = [];
+              for (let i = 0; i < n; i++) {
+                grid.push(`<div class="grid-item"></div>`);
+              }
+              return grid.join("");
+            }
+      
+            const generateButton = document.getElementById("generateButton2");
+            generateButton.addEventListener("click", function() {
+              const numberOfItemsInput = document.getElementById("textBox");
+              const numberOfItems = numberOfItemsInput.value;
+              const gridContainer = document.getElementById("grid");
+              gridContainer.innerHTML = generateGridItems(numberOfItems);
+            });
+          </script>
+    </div>
+</body>
+
+
+</html>
+
+
+css code
+#grad1{
+    height:700px;
+    background-image:linear-gradient(lightskyblue,pink);
+    background-repeat: no-repeat;
+}
+#heading{
+    text-align: center;
+    color:burlywood;
+    font-size: 50px;
+}
+#textBox{
+    border:2px solid pink;
+    border-radius: 15px;
+    padding:10px;
+    width:250px;
+    position:relative;
+    left:400px;
+    top:150px;
+    background-color: pink;
+    height:25px;
+}
+#textBox::placeholder{
+    font-size:15px;
+    text-align: center;
+}
+#generatebutton{
+    position:relative;
+    left:500px;
+    top:150px;
+    border:2px solid lightgreen;
+    border-radius: 15px;
+    padding:10px;
+    width:250px;
+    background-color:lightgreen;
+    height:50px;
+    cursor:pointer;
+
+}
+
+#generatebutton:active{
+    opacity:0.5;
+}
+.grid-container {
+    position:relative;
+    top:200px;
+    opacity:0.3;
+    border-radius: 25px;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /background-color: #2196F3;/
+    padding: 10px;
+    height:300px;
+  }
+  .grid-item {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+  }
